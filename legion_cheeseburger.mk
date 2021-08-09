@@ -26,10 +26,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# Inherit some common DotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common LegionOS stuff.
+$(call inherit-product, vendor/legion/config/common_full_phone.mk)
 
-PRODUCT_NAME := dot_cheeseburger
+PRODUCT_NAME := legion_cheeseburger
 PRODUCT_DEVICE := cheeseburger
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
